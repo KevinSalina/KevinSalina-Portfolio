@@ -81,6 +81,7 @@ section.about-me{
 
     .about-me-text{
         max-width: 650px;
+        font-size: 1.125rem;
         margin: 0 auto;
         line-height: 1.75rem;
         letter-spacing: .125rem;
@@ -91,4 +92,74 @@ section.about-me{
         }
     }
     
+}
+
+section.projects{
+    background: #F5F5F5;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+
+    .projects-title{
+        margin-bottom: 3rem;
+        text-transform: uppercase;
+    }
+    .projects-text{
+        max-width: 650px;
+        margin: 0 auto;
+        line-height: 1.75rem;
+        letter-spacing: .125rem;
+        text-align: center;
+    }
+}
+
+section.contact-me{
+    background: #4C576D;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3rem;
+
+    .social-icon{
+        color:#F5F5F5;
+        font-size: 4rem;
+
+        a{
+            color: inherit;
+
+            &:visited{
+                color: inherit;
+            }
+        }
+       
+        a.fb:hover{
+            color: #1877f2;
+        }
+        a.ig:hover{
+            background-clip: content-box;
+            background: linear-gradient(31deg, rgba(245,133,41,1) 0%, rgba(254,218,119,1) 25%, rgba(221,42,123,1) 50%, rgba(129,52,175,1) 75%, rgba(81,91,212,1) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        a.gh:hover{
+            color: #211F1F;
+        }
+        a.li:hover{
+            color: #00A0DC;
+        }
+    }
+}
+
+footer{
+    background: #3D424E;
+    color: #CDDBEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
 }

@@ -103,6 +103,7 @@ section.about-me {
 
 section.about-me .about-me-text {
   max-width: 650px;
+  font-size: 1.125rem;
   margin: 0 auto;
   line-height: 1.75rem;
   letter-spacing: .125rem;
@@ -111,5 +112,100 @@ section.about-me .about-me-text {
 
 section.about-me .about-me-text span {
   font-weight: bold;
+}
+
+section.projects {
+  background: #F5F5F5;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 2rem;
+}
+
+section.projects .projects-title {
+  margin-bottom: 3rem;
+  text-transform: uppercase;
+}
+
+section.projects .projects-text {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.75rem;
+  letter-spacing: .125rem;
+  text-align: center;
+}
+
+section.contact-me {
+  background: #4C576D;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem;
+  gap: 3rem;
+}
+
+section.contact-me .social-icon {
+  color: #F5F5F5;
+  font-size: 4rem;
+}
+
+section.contact-me .social-icon a {
+  color: inherit;
+}
+
+section.contact-me .social-icon a:visited {
+  color: inherit;
+}
+
+section.contact-me .social-icon a.fb:hover {
+  color: #1877f2;
+}
+
+section.contact-me .social-icon a.ig:hover {
+  background-clip: content-box;
+  background: linear-gradient(31deg, #f58529 0%, #feda77 25%, #dd2a7b 50%, #8134af 75%, #515bd4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.contact-me .social-icon a.gh:hover {
+  color: #211F1F;
+}
+
+section.contact-me .social-icon a.li:hover {
+  color: #00A0DC;
+}
+
+footer {
+  background: #3D424E;
+  color: #CDDBEA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 37px;
 }
 /*# sourceMappingURL=styles.css.map */
