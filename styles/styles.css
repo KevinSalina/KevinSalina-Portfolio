@@ -53,6 +53,7 @@ header .header-background-img {
 header .header-background-img .profile-img {
   background-image: url("../assets/profile-img.jpeg");
   background-size: cover;
+  background-position: 50% 5%;
   width: 150px;
   height: 150px;
   border-radius: 100%;
