@@ -20,7 +20,7 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
     .header-background-img{
         background: linear-gradient(rgba(76, 87, 109, 0.8), rgba(76, 87, 109, 0.8)), url('../assets/header-img.jpg') no-repeat center;
         background-size: cover;
@@ -32,6 +32,7 @@ header{
         align-items: center;
         flex-direction: column;
         gap: 3rem;
+        padding: 2rem;
 
         .profile-img{
             background: url('../assets/profile-img.jpeg') no-repeat center;
@@ -46,6 +47,7 @@ header{
             text-transform: uppercase;
             font-weight: 400;
             letter-spacing: .25rem;
+            text-align: center;
         }
 
         .btn{
@@ -75,12 +77,14 @@ section.about-me{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
 
     .about-me-text{
         max-width: 650px;
         margin: 0 auto;
         line-height: 1.75rem;
         letter-spacing: .125rem;
+        text-align: center;
 
         span{
             font-weight: bold;

@@ -47,6 +47,7 @@ header .header-background-img {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 3rem;
+  padding: 2rem;
 }
 
 header .header-background-img .profile-img {
@@ -62,6 +63,7 @@ header .header-background-img .header-title {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: .25rem;
+  text-align: center;
 }
 
 header .header-background-img .btn {
@@ -96,6 +98,7 @@ section.about-me {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding: 2rem;
 }
 
 section.about-me .about-me-text {
@@ -103,6 +106,7 @@ section.about-me .about-me-text {
   margin: 0 auto;
   line-height: 1.75rem;
   letter-spacing: .125rem;
+  text-align: center;
 }
 
 section.about-me .about-me-text span {
