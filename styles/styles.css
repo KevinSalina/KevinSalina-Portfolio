@@ -81,7 +81,31 @@ header .header-background-img .btn:hover {
   cursor: pointer;
   color: #C74D56;
   background: white;
-  position: relative;
-  bottom: 2px;
+}
+
+section.about-me {
+  background: #CDDBEA;
+  height: 175px;
+  color: #5B656F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.about-me .about-me-text {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.75rem;
+  letter-spacing: .125rem;
+}
+
+section.about-me .about-me-text span {
+  font-weight: bold;
 }
 /*# sourceMappingURL=styles.css.map */

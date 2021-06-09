@@ -63,9 +63,28 @@ header{
                 cursor: pointer;
                 color: #C74D56; 
                 background: white;
-                position: relative;
-                bottom: 2px;
             }
         }
     }
+}
+
+section.about-me{
+    background: #CDDBEA;
+    height: 175px;
+    color: #5B656F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .about-me-text{
+        max-width: 650px;
+        margin: 0 auto;
+        line-height: 1.75rem;
+        letter-spacing: .125rem;
+
+        span{
+            font-weight: bold;
+        }
+    }
+    
 }
