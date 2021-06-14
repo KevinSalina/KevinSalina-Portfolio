@@ -1,4 +1,4 @@
-# Kevin Salina Potfolio Website
+# Kevin Salina Portfolio Website
 
 Hello!
 
