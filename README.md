@@ -4,7 +4,7 @@ Hello!
 
 This is a project to build my own portfolio site. This site will be used to showcase my web development projects, and be an outlet for my creative side.
 
-Live link coming soon.
+View demo [here](https://kevinsalina.github.io/KevinSalina-Portfolio/)
 
 ## Built with
 
