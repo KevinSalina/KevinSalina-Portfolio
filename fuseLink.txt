@@ -1,0 +1,3 @@
+https://github.com/KevinSalina/KevinSalina-Portfolio/pulls
+
+Update HW #2 - Added a couple demo projects to projects section. Still want to work further on layout and adding additional pages and navigation menu.
