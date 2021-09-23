@@ -157,7 +157,7 @@ section.projects{
                     transition: opacity .8s ease-in-out;
 
                     &:hover{
-                        color: #C74D56;
+                        color: $accent-color
                     }
                 }
             }
