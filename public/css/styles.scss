@@ -129,7 +129,7 @@ section.projects{
         display: grid;
         max-width: 1250px;
         align-items: center;
-        grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
         grid-gap: 2rem;
 
         .projects-item{
