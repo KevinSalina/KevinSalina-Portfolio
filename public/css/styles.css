@@ -96,7 +96,8 @@ header .header-background-img .btn:hover {
 
 section.about-me {
   background: #CDDBEA;
-  height: 175px;
+  height: auto;
+  min-height: 200px;
   color: #5B656F;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -177,6 +178,11 @@ section.projects .projects-items .projects-item .projects-btns {
   text-align: center;
 }
 
+section.projects .projects-items .projects-item .projects-btns.privy-btns {
+  -ms-grid-columns: (1fr)[1];
+      grid-template-columns: repeat(1, 1fr);
+}
+
 section.projects .projects-items .projects-item .projects-btns .projects-btn {
   color: white;
   opacity: 0;
@@ -206,6 +212,10 @@ section.projects .projects-items .projects-item .calculator {
 
 section.projects .projects-items .projects-item .stables {
   background-image: url("../../assets/projects/BaldwinStables.png");
+}
+
+section.projects .projects-items .projects-item .privy {
+  background-image: url("../../assets/projects/Privy.png");
 }
 
 section.projects .projects-items .projects-item::after {

@@ -86,7 +86,8 @@ header{
 
 section.about-me{
     background: $accent-color;
-    height: 175px;
+    height: auto;
+    min-height: 200px;
     color: #5B656F;
     display: flex;
     justify-content: center;
@@ -150,6 +151,10 @@ section.projects{
                 align-items: center;
                 text-align: center;
 
+            &.privy-btns{
+                grid-template-columns: repeat(1, 1fr);
+            }
+
                 .projects-btn{
                     color: white;
                     opacity: 0;
@@ -179,7 +184,11 @@ section.projects{
 
             .stables{
                 background-image: url('../../assets/projects/BaldwinStables.png');
-            }   
+            }
+            
+            .privy{
+                background-image: url('../../assets/projects/Privy.png');
+            }
 
             &::after{
                 content: '';
