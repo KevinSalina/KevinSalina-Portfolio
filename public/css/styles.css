@@ -218,6 +218,10 @@ section.projects .projects-items .projects-item .privy {
   background-image: url("../../assets/projects/Privy.png");
 }
 
+section.projects .projects-items .projects-item .crypto {
+  background-image: url("../../assets/projects/Crypto.png");
+}
+
 section.projects .projects-items .projects-item::after {
   content: '';
   position: absolute;
